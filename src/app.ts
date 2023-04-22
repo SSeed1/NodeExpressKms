@@ -16,6 +16,10 @@ app.get('/post',(req : Request ,res : Response ) => {
     res.send(arr);
 })
 
+app.get('/users',(req : Request ,res : Response) => {
+    res.send('123');
+})
+
 app.listen(port,() => {
     console.log(`app listen port: ${port}`)
 })
